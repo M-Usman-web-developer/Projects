@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --primary-color: rgb(38 231 88);
+    --secondary-color: rgb(113, 113, 242);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------- header part------ */
+
+header{
+    position: sticky;
+    top: 0px;
+}
+
+nav ul {
+    border: 2px solid black;
+    width: 47vw;
+    height: 5vh;
+    list-style: none;
+    display: flex;
+    padding: 0px 10px;
+    padding-top: 30px;
+    padding-left: 950px;
+    margin: 10px;
+    font-family: var(--font-family);
+    font-size: 17px;
+    font-weight: 600;
+    background-color: var(--primary-color);
+border-radius: 5px;
+
+    
+
+}
+
+li a {
+    margin: 60px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.809);
+}
+
+
+
+/*------- Content part------ */
+#main-div {
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+/* ----------------------------- */
+#main-section {
+    /* border: 3px solid black; */
+    width: 80vw;
+    margin: 30px;
+    margin-left: 175px;
+    min-height: 60vh;
+    /* position: relative;
+    left: 140px; */
+    /* background-color: rgb(120, 199, 202); */
+    background-color: rgb(140 177 178);;
+    
+
+
+}
+
+/* ------------------------------------------------------ */
+#main-section div {
+    border: 3px solid black;
+    display: inline-block;
+    width: 30vw;
+    min-height: 20vh;
+    margin: 50px;
+    margin-left: 90px;
+    padding: 10px;
+    /* position: relative;
+    left: 70px; */
+    background-color: rgb(0, 217, 255);
+    font-family: var(--font-family);
+    text-align: justify;
+
+}
+
+#main-div{
+    width: 98vw;
+    min-height: 100vh;
+    margin-left: 10px;
+    background-color: rgb(37 184 42 / 57%);
+}
+
+#lower-div{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 30vw;
+    height: 10vh;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 650px;
+    margin-bottom: 30px;
+    /* position: relative;
+    left: 650px;
+    bottom: 20px;
+    top: 5px; */
+    font-family: var(--font-family);
+    font-style: italic;
+    font-weight:500;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.775);
+    color: white;
+
+}
+
+img{
+    width: 5vw;
+    height: 10vh;
+    padding-left:1700px;
+    position: fixed;
+    bottom: 90px;
+}
+
+/* footer part */
+
+footer{
+    --primary-color:aqua;
+
+    border: 2px solid black;
+    width: 98vw;
+    height: 10vh;
+    margin: 10px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    text-align: center;  
+}
