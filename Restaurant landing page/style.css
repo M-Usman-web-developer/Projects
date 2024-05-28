@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    width: 80vw;
+    height: 80vh;
+}
+
+#red-bgc {
+    /* background-color: red; */
+    background-color: #850000;
+    width: 98.5vw;
+    height: 97vh;
+    border-radius: 15px;
+    padding-top: 10px;
+
+}
+
+#red-bgc img {
+    border: 2px solid black;
+    width: 25vw;
+    height: 30vh;
+    object-fit: contain;
+    /* transform: scale(130%, 130%)  translate(100%, 37%); */
+    /* transform: scale(185%, 185%) translate(120%, 40%); */
+    transform: scale(260%, 260%) translate(80%, 27%);
+    border: none;
+    margin-top: 20px;
+
+}
+
+#ell {
+    border: 2px solid black;
+    width: 25vw;
+    height: 40vh;
+    object-fit: contain;
+    transform: scale(155%, 155%) translate(12%, -138.5%);
+    border: none;
+
+}
+
+
+ul {
+    color: rgb(249, 247, 247);
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+li a {
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(249, 247, 247);
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+li a:hover{
+    background-color: #b90000;
+}
+
+li {
+    padding-top: 10px;
+    padding-right: 50px;
+    
+}
+
+li button {
+    width: 5vw;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 15px;
+    background-color: #850000;
+    color: white;
+    border-color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+li button:hover {
+    background-color: rgb(250, 251, 251);
+    color: black;
+    
+}
+
+#overlap {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville", serif;
+}
+
+/* ---------------------------- --------------------------- */
+
+.writing {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    color: white;
+    border: 2px solid black;
+    width: 30vw;
+    height: 10vh;
+    border: none;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+#pag {
+    margin-top: -30px;
+}
+
+.writing h2 {
+    font-size: 60px;
+}
+
+.many-dashies {
+    transform: translate(100px, -900px);
+}
+
+#text {
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    transform: translate(100px, -950px);
+    border: none;
+
+}
+
+::placeholder {
+    font-size: 20px;
+    padding-left: 35px;
+    color: black;
+    font-weight: bold;
+}
